@@ -1,0 +1,365 @@
+/*全局样式*/
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.relative{
+	position:relative;
+}
+/*************************************************************************************/
+div.caiseline>img{
+	width:100%;
+}
+/*************************************侧边栏***********************************/
+div.g-toolbar{
+	width:52px;
+	height:200px;
+	position:fixed;
+	top:40%;
+	right:50px;
+}
+div.g-toolbar>.g-toolbar-nav{
+	width:52px;
+	height:190px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item{
+	width:40px;
+	height:40px;
+	position:relative;
+	margin:0 0 10px 12px;
+	color:#fff;
+	text-align:center;
+	border-radius:4px;
+	cursor:pointer;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.toolbar-item-t{
+	display:block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	background:#ff4f3f;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.qq{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -152px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .qq{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .toolbar-item-t{
+	border-radius:4px 0 0 4px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .toolbar-item-t{
+	left:-40px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.toolbar-item-c2{
+	display:block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	background:#ff4f3f;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.calc{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -256px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .calc{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .toolbar-item-c2{
+	border-radius:4px 0 0 4px;
+	left:-40px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.wx-qrc{
+	width:120px;
+	height:140px;
+	background:#ff4f3f url("../img/index/toolbar.png") no-repeat 0 0;
+	border-radius:4px;
+	position:absolute;
+	display:none;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.wx{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -464px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .wx{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .wx-qrc{
+	border-radius:4px 0 4px 4px;
+	left:-120px;
+	display:block;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.phone-qrc{
+	width:120px;
+	height:140px;
+	background:#ff4f3f url("../img/index/toolbar.png") no-repeat 0 -822px;
+	border-radius:4px;
+	position:absolute;
+	display:none;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.phone{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -684px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .phone{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .phone-qrc{
+	border-radius:4px 0 4px 4px;
+	left:-120px;
+	display:block;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.totop{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -569px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .totop{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+#back{
+	display:none;
+}
+/****************************************主体**************************************/
+div.InformationDisclosure_content{
+	width:100%;
+    overflow:hidden;
+    background:url("../img/toOperate/operateRiskManagerInfoBg.jpg") no-repeat center top #929496;
+    background-attachment:fixed;
+    background-size:cover;
+    padding-top:40px;
+}
+div.InformationDisclosure_content>.MyInvestment{
+	width:1000px;
+    overflow:hidden;
+    background:#fff;
+    margin:0 auto 60px;
+}
+div.InformationDisclosure_content>.MyInvestment>.hd{
+	height:48px;
+    background:#f0f6fc;
+    position:relative;
+}
+div.InformationDisclosure_content>.MyInvestment>.hd>.tab{
+	overflow:hidden;
+    height:48px;
+}
+div.InformationDisclosure_content>.MyInvestment>.hd>.tab>li{
+	float:left;
+    width:25%;
+    cursor:pointer;
+    font-size:16px;
+    border-top:2px solid #c2d3e3;
+    height:48px;
+    line-height:48px;
+    text-align:center;
+}
+div.InformationDisclosure_content>.MyInvestment>.hd>.tab>li.on{
+	background-color:#fff;
+    border-top:2px solid #ff4f3f;
+    color:#ff4f3f;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd{
+	background:#fff;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data{
+	overflow:hidden;
+    padding:40px 40px 60px 40px;
+    width:920px;
+	margin-left:20px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.banner2{
+	width:920px;
+    height:200px;
+    background:url("../img/toOperate/banner2.png") no-repeat;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.banner2>strong{
+	display:block;
+    text-align:center;
+    color:#e4f9ff;
+    font-size:40px;
+    padding:43px 0 8px 0;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.banner2>p{
+	overflow:hidden;
+    text-align:center;
+    color:#e4f9ff;
+    font-size:18px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap{
+	margin-top:50px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>span{
+	font-size:16px;
+    margin-bottom:15px;
+    display:block;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>span>em{
+	font-size:12px;
+    color:#6d8099;
+    font-style:normal;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>ul{
+	width:920px;
+	overflow:hidden;
+    padding-top:2px;
+    padding-left:2px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>ul>li{
+    float:left;
+    width:210px;
+    height:74px;
+    text-align:center;
+    box-shadow:0px 0px 10px #e8e8e8;
+    background:#fff;
+    padding-top:24px;
+    margin:0 12px 15px 0;
+	box-sizing:content-box;
+	
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>ul>li>span{
+	font-size:14px;
+    color:#6d8099;
+    margin-bottom:6px;
+	display:block;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>ul>li>span>p{
+	color:#6d8099;
+    margin-bottom:6px;
+	font-size:16px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>ul>li>span>p>em{
+	font-size:22px;
+    color:#3b4b5b;
+	font-style:normal;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap>ul>li>span>span{
+	display:inline;
+	font-size:14px;
+    color:#6d8099;
+    margin-bottom:6px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2{
+	margin-top:20px;
+	width:920px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>.tit{
+	overflow:hidden;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>.tit>span{
+	font-size:16px;
+    margin-bottom:15px;
+    display:block;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>.tit>span>em{
+	font-size:12px;
+    color:#6d8099;
+    font-style:normal;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>.tit>select{
+	float:right;
+    width:118px;
+    height:28px;
+    line-height:28px;
+    border:1px solid #b6c6d6;
+    padding-left:10px;
+	margin-right:40px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul{
+	overflow:hidden;
+    padding-top:2px;
+    padding-left:2px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li{
+	width:425px;
+    height:108px;
+    text-align:center;
+    margin:0 16px 15px 0;
+	float:left;
+	box-shadow:0px 0px 10px #e8e8e8;
+    background:#fff;
+    padding-top:24px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li.noMargin{
+	margin-right:45px;
+	float:right;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.left{
+	display:inline-block;
+    width:49px;
+    height:45px;
+    background:url("../img/toOperate/icons.png") no-repeat;
+    margin-left:30px;
+    margin-right:20px;
+    margin-top:5px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img2{
+	background-position:0 -603px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img3{
+	background-position:0 -118px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img4{
+	background-position:0 -719px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img5{
+	background-position:0 -237px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img6{
+	background-position:0 -843px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img7{
+	background-position:0 -357px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img8{
+	background-position:0 -958px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img9{
+	background-position:0 -480px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>.img10{
+	background-position:0 -1080px;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>div>span{
+	display:block;
+	font-size:14px;
+    color:#6d8099;
+    margin-bottom:6px
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>div>span>span{
+	font-size:16px;
+	color:#6d8099;
+    margin-bottom:6px;
+	display:block;
+}
+div.InformationDisclosure_content>.MyInvestment>.bd>.data>.tableWrap2>ul>li>div>span>span>em{
+	font-size:22px;
+    color:#3b4b5b;
+	font-style:normal;
+}

@@ -1,0 +1,148 @@
+ *{ margin:0; padding:0;}
+ul{list-style:none;}
+img{border:none; display:block;}
+a{text-decoration:none;cursor:pointer;}
+h4{font-style:normal;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.top{
+	height:40px;
+	border-bottom:1px solid #dfdfdf;
+	background:#f5f5f5;
+}
+.top .top-width1000{
+	width:1000px;
+	margin:0 auto;
+	height:40px;
+	line-height:40px;
+}
+.top .top-width1000 .top-l .l-phone{
+	margin-top:14px;
+}
+.top .top-width1000 .top-l .phone{
+	font-size:12px;
+	margin-left:10px;
+	margin-right:20px;
+}
+.top .top-width1000 .top-l a{
+	width:23px;
+	height:23px;
+	display:block;
+	background-image:url("../img/header/top_icon01.png");
+	background-repeat:no-repeat;
+	margin-top:8.5px;
+	margin-right:12px;
+}
+.top .top-width1000 .top-l a.weibo{
+	background-position:0 0;
+}
+.top .top-width1000 .top-l a.weibo:hover{
+	background-position:-103px 0;
+}
+.top .top-width1000 .top-l a.qq{
+	background-position:-35px 0px;
+}
+.top .top-width1000 .top-l a.qq:hover{
+	background-position:-138px 0px;
+}
+.top .top-width1000 .top-l a.weixin{
+	background-position:-68px 0;
+	position:relative;
+}
+.top .top-width1000 .top-l a.weixin:hover{
+	background-position:-171px 0;
+}
+.top .top-width1000 .top-l a.weixin:hover div{
+	display:block;
+}
+.top .top-width1000 .top-l .weixin>div{
+	position:absolute;
+	top:25px;
+	left:-70px;
+	height:190px;
+	width:157px;
+	background-image:url("../img/header/weixin_box.png");
+	display:none;
+}
+.top .top-width1000 .top-l .testWrap{
+	font-size:12px;
+}
+.top .top-width1000 ul.top-r>li{
+	float:left;
+	font-size:12px;
+	margin:0 10px;
+}
+.top .top-width1000 ul.top-r>li>a.red{
+	color:red;
+}
+.top .top-width1000 ul.top-r>li.longString{
+	width:1px;
+	height:11px;
+	background:gray;
+	margin-top:14px;
+}
+.top .top-width1000 ul.top-r>li>a:hover{
+	color:red;
+}
+.top .top-width1000 ul.top-r>li>a.smallPhone{
+	background-image:url("../img/header/grayAppBg.png");
+	background-repeat:no-repeat;
+}
+.top .top-width1000 ul.top-r>li>a.smallPhone:hover{
+	background-image:url("../img/header/redAppBg.png");
+	background-repeat:no-repeat;
+}
+div.logo-nav{
+	height:90px;
+}
+.logo-nav .logo-nav-1000{
+	width:1000px;
+	margin:0 auto;
+	height:90px;
+	line-height:90px;
+	position:relative;
+}
+.logo-nav .logo-nav-1000:before{
+	content:"";
+	display:table;
+}
+.logo-nav:before{
+	content:"";
+	display:table;
+}
+.logo-nav .logo-nav-1000 a>img{
+	margin:25px 0 0 0;
+	display:block;
+	width:226px;
+}
+.logo-nav .logo-nav-1000>ul{
+	display:flex;
+	width:668px;
+	height:63px;
+	justify-content:space-between;
+	position:absolute;
+	top:0;
+	right:0;
+	padding-top:7px;
+	font-size:16px;
+}
+.logo-nav .logo-nav-1000 ul>li{
+	float:left;
+}
+.logo-nav .logo-nav-1000 ul li.nav-red>a{
+	color:red;
+}
+.logo-nav .logo-nav-1000 ul li>a:hover{
+	color:red;
+}
+.logo-nav .logo-nav-1000 ul li.nav_red>a{
+	width:98px;
+	height:28px;
+	color:#fff;
+	font-size:14px;
+	background:#ff4f3f;
+	padding:5px 35px;
+	margin-left:20px;
+	border-radius:3px;
+}

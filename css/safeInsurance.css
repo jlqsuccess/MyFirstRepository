@@ -1,0 +1,251 @@
+/*全局样式*/
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.relative{
+	position:relative;
+}
+/*************************************************************************************/
+div.caiseline>img{
+	width:100%;
+}
+div.clearfix{
+	width:100%;
+}
+div.clearfix>.security1{
+	background:url("../img/safeInsurance/bj1.png") repeat-x;
+    height:600px;
+    padding-top:30px;
+}
+div.clearfix>.security1>.security1-title{
+	padding-bottom:10px;
+    margin:0 auto;
+}
+div.clearfix>.security1>.security1-nr{
+	position:relative;
+    width:455px;
+    height:455px;
+    overflow:hidden;
+    margin:0 auto;
+}
+div.clearfix>.security1>.security1-nr>.security1-nr2{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+@keyframes rotate{
+	0%{transform:rotate(0deg)}
+	50%{transform:rotate(180deg)}
+	100%{transform:rotate(360deg)}
+}
+div.clearfix>.security1>.security1-nr>.security1-nr3{
+	margin-left:-6px;
+	margin-top:1px;
+	animation:rotate 10s linear infinite;
+}
+div.clearfix>.security2{
+	width:1000px;
+	height:523px;
+    margin:0 auto;
+    padding-bottom:110px;
+}
+div.clearfix>.security2>.security2-title{
+	text-align:center;
+    margin:74px auto 86px;
+}
+div.clearfix>.security2>.security2-nr{
+	width:1000px;
+    margin:0 auto;
+}
+div.clearfix>.security2>.security2-nr dl{
+	width:260px;
+    padding:0 24px;
+	box-sizing:content-box;
+}
+div.clearfix>.security2>.security2-nr dt{
+	height:100px;
+}
+div.clearfix>.security2>.security2-nr dt img{
+	margin:0 auto;
+}
+div.clearfix>.security2>.security2-nr dd{
+	display:block;
+    width:260px;
+}
+div.clearfix>.security2>.security2-nr dd.dd1{
+	text-align:center;
+    font-size:18px;
+    height:40px;
+	color:#25b7cb;
+    line-height:28px;
+}
+div.clearfix>.security2>.security2-nr dd.dd2{
+	color:#25b7cb;
+    font-size:14px;
+    line-height:28px;
+}
+div.clearfix>.security2>.security2-nr>.center{
+	float:left;
+    width:260px;
+    padding:0 24px;
+	margin-left:40px;
+}
+div.clearfix>.security3{
+	background:url("../img/safeInsurance/bj2.png") repeat-x;
+    height:780px;
+}
+div.clearfix>.security3>img{
+	padding-top:70px;
+    padding-bottom:70px;
+    margin:0 auto;
+}
+div.clearfix>.security3>.security3-nr{
+	width:1000px;
+    margin:0 auto;
+}
+div.clearfix>.security3>.security3-nr>.security3-nrL{
+	float:left;
+    position:relative;
+    width:322px;
+    height:322px;
+    margin-top:25px;
+    margin-left:20px;
+}
+div.clearfix>.security3>.security3-nr>.security3-nrL>.nrL-img{
+	position:absolute;
+	top:51px;
+	left:48px;
+}
+div.clearfix>.security3>.security3-nr>.security3-nrL>.security1-nr3{
+	animation:rotate 10s linear infinite;
+}
+div.clearfix>.security3>.security3-nr>.security3-nrR{
+	float:right;
+	color:#fff;
+	font-size:14px;
+}
+div.clearfix>.security3>.security3-nr>.security3-nrR>ul{
+	margin-bottom:26px;
+}
+div.clearfix>.security3>.security3-nr>.security3-nrR>ul>.title{
+	font-size:18px;
+	height:30px;
+}
+div.clearfix>.security3>.security3-nr>.security3-nrR>ul>li{
+	line-height:24px;
+}
+div.clearfix>.security4{
+	position:relative;
+    width:998px;
+    height:584px;
+    border:1px solid #00d8ff;
+    margin:0 auto;
+    border-radius:5px;
+    margin-top:-157px
+}
+div.clearfix>.security4>.bj{
+	background:#2592ca;
+    height:156px;
+    width: 996px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+div.clearfix>.security4>.dz{
+	background:url("../img/safeInsurance/security4-nr1.png") no-repeat;
+    width:205px;
+    height:50px;
+    position:absolute;
+    left:50%;
+    bottom:-50px;
+    margin-left:-102px;
+}
+div.clearfix>.security4>.security4-nr{
+	position:absolute;
+    top:20px;
+    left:21px;
+    width:955px;
+    height:540px;
+    border:1px solid #00d8ff;
+    margin:0 auto;
+    border-radius:5px;
+}
+div.clearfix>.security4>.security4-nr>img{
+	margin:42px auto 100px;
+}
+div.clearfix>.security4>.security4-nr>ul{
+	width:810px;
+    margin:0 auto;
+}
+div.clearfix>.security4>.security4-nr>ul>li{
+	font-size:14px;
+    color:#2fc0d4;
+}
+div.clearfix>.security4>.security4-nr>ul>li.font18{
+	font-size:18px;
+    height:32px;
+    margin-top:30px;
+}
+div.clearfix>.security5{
+	height:670px;
+    background:url("../img/safeInsurance/bj3.png") repeat-x;
+    margin-top:160px;
+}
+div.clearfix>.security5>img{
+	margin:0 auto;
+    padding-top:70px;
+    padding-bottom:50px;
+}
+div.clearfix>.security5>.security5-nr{
+	background:url("../img/safeInsurance/security5-nr1.png") no-repeat center;
+    width:100%;
+    height:379px;
+    margin:0 auto;
+}
+div.clearfix>.security5>.security5-nr>.security5-nr1000{
+	width:1000px;
+    margin:0 auto;
+    padding-top:110px;
+}
+div.clearfix>.security5>.security5-nr>.security5-nr1000>dl{
+	width:45%;
+}
+div.clearfix>.security5>.security5-nr>.security5-nr1000>dl>dt{
+	width:100px;
+    height:100px;
+    position:relative;
+    margin:0 auto;
+    cursor:pointer;
+    padding-bottom:30px;
+}
+div.clearfix>.security5>.security5-nr>.security5-nr1000>dl>dt>.img1{
+	position:absolute;
+    left:35px;
+    top:0;
+    z-index:100;
+    width:100px;
+    height:100px;
+}
+div.clearfix>.security5>.security5-nr>.security5-nr1000>dl>dt>.img2{
+	position:absolute;
+    top:5px;
+    left:40px;
+    width:90px;
+    height:90px;
+}
+div.clearfix>.security5>.security5-nr>.security5-nr1000>dl>dd{
+	width:374px;
+    margin:0 auto;
+    font-size:14px;
+    color:#fff;
+    line-height:28px;
+	display: block;
+}
+div.clearfix>.security5>.security5-nr>.security5-nr1000>dl>dd.font18{
+	text-align:center;
+    font-size:18px;
+    margin-bottom:10px;
+	margin-top:30px;
+}

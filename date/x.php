@@ -5,7 +5,7 @@ use jrwb;
 create table jrwb_user(
   uid int primary key auto_increment,
   phone  varchar(16) not null unique,
-  upwd  varchar(32),
+  upwd  varchar(32)
 );
 -- ----------------------------
 -- Records of jrwb_user

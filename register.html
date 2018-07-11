@@ -21,23 +21,23 @@
 			<div class="registerWrap">
 				<ul class="title">
 					<li class="left">用户注册</li>
-					<li class="right">已有网筹金融账号？请<a href="javascript:;">登录</a></li>
+					<li class="right">已有网筹金融账号？请<a href="login.html">登录</a></li>
 				</ul>
 				<form action="" id="regForm">
 					<ul class="register">
 						<li class="li1">
 							<label></label>
-							<input type="text" placeholder="请输入手机号码" name="uname">
+							<input type="text" placeholder="请输入手机号码" name="uphone" id="uphone">
 							<span>请输入手机号码</span>
 						</li>
 						<li class="li2">
 							<label></label>
-							<input type="password" placeholder="请输入登录密码" name="upwd">
+							<input type="password" placeholder="请输入登录密码" name="upwd" id="upwd">
 							<p>建议密码由6-16位字母和数字组合。</p>
 							<span>请输入密码</span>
 						</li>
 						<li class="li3">
-							<input type="text" placeholder="请输入验证码"><div><img src="date/CAPTCHA.php"></div>
+							<input type="text" placeholder="请输入验证码" name="yzm" id="yzm"><div><img src="date/00_code.php"></div>
 							<span>请输入验证码</span>
 						</li>
 						<li class="li4">
@@ -52,7 +52,7 @@
 							<span>我已阅读并同意<span>《网筹金融服务协议》</span>已充分了解并知晓产品风险，愿意承担相关风险。</span>
 						</li>
 						<li class="li6" style="margin-top:20px">
-							<a href="javascript:;">同意用户协议并注册</a>
+							<a href="date/register.php" id="li6register">同意用户协议并注册</a>
 						</li>
 					</ul>
 				</form>

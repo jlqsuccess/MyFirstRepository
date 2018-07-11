@@ -13,4 +13,30 @@ $(function(){
 		}
 		$(this).css("border","1px solid #ccc");
 	});
+
+
+	$(".loginButton").on("click",function(e){
+    	    e.preventDefault(); 
+            var uphone = $("#uphone").val();
+			var upwd = $("#upwd").val();
+			$.ajax({
+                type: "GET", 
+                url: "date/login.php",
+                contentType:"application/json",
+                data:{uphone:uphone,upwd:upwd},   
+				dataType:"json",
+                success: function(data){
+                   if(data.code>0){
+						alert(data.msg);
+						location.href = "index.html";
+					}else{
+						alert(data.msg);
+					}
+                },
+                error: function(){
+                   alert("网络故障请检查!")}
+                }
+    	    });
+	});
+
 });

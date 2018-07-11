@@ -83,8 +83,8 @@ div.mainWrap>.main1000>.registerWrap>.title>.right>a{
 	width:696px;
 }
 #regForm>.register{
-	width:352px;
-	margin:40px 171px 20px 171px;
+	width:412px;
+	margin:40px 141px 20px 141px;
 }
 #regForm>.register>.li1>label{
 	display:block;
@@ -97,7 +97,7 @@ div.mainWrap>.main1000>.registerWrap>.title>.right>a{
 	background:url("../img/register/telBg.png") no-repeat 14px 8px;
 }
 #regForm>.register>.li1>input{
-	width:308px;
+	width:368px;
 	height:38px;
 	float:right;
 	border-left:none;
@@ -128,7 +128,7 @@ div.mainWrap>.main1000>.registerWrap>.title>.right>a{
 	background:url("../img/register/passwordBg.png") no-repeat 14px 8px;
 }
 #regForm>.register>.li2>input{
-	width:308px;
+	width:368px;
 	height:38px;
 	float:right;
 	border-left:none;
@@ -163,7 +163,7 @@ div.mainWrap>.main1000>.registerWrap>.title>.right>a{
 	float:left;
 }
 #regForm>.register>.li3>div{
-	width:100px;
+	width:160px;
 	height:38px;
 	float:right;
 }
@@ -198,7 +198,7 @@ div.mainWrap>.main1000>.registerWrap>.title>.right>a{
 	background:url("../img/register/cooperateBg.png") no-repeat 14px 8px;
 }
 #regForm>.register>.li4>div>input{
-	width:308px;
+	width:368px;
 	height:38px;
 	float:right;
 	border-left:none;
@@ -208,7 +208,7 @@ div.mainWrap>.main1000>.registerWrap>.title>.right>a{
 	margin-top:50px;
 }
 #regForm>.register>.li5>span{
-	width:330px;
+	width:390px;
 	height:38px;
 	float:right;
 }
@@ -216,14 +216,14 @@ div.mainWrap>.main1000>.registerWrap>.title>.right>a{
 	color:#00aaee;
 }
 #regForm>.register>.li6{
-	width:352px;
+	width:412px;
 	height:38px;
 	text-align:center;
 	line-height:38px;
 	position:relative;
 }
 #regForm>.register>.li6>a{
-	width:352px;
+	width:412px;
 	height:38px;
 	text-align:center;
 	line-height:38px;

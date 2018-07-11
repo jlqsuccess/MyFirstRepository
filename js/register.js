@@ -98,4 +98,31 @@ $(function(){
 			$(this).parent().next().children("a").css("background","gray");
 		}
 	});
+
+
+
+	$("#li6register").on("click",function(e){
+    	    e.preventDefault(); 
+            var uphone = $("#uphone").val();
+			var upwd = $("#upwd").val();
+			var yzm = $("#yzm").val();
+			$.ajax({
+                type: "GET", 
+                url: "date/register.php",
+                contentType:"application/json",
+                data:{uphone:uphone,upwd:upwd,yzm:yzm},   
+				dataType:"json",
+                success: function(data){
+                   if(data.code>0){
+						alert(data.msg);
+						location.href = "login.html";
+					}else{
+						alert(data.msg);
+					}
+                },
+                error: function(){
+                   alert("网络故障请检查!");
+                },
+    	    });
+	});
 });

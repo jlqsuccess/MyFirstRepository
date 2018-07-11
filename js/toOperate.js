@@ -12,4 +12,12 @@ $(function(){
 			"scrollTop": 0
         }, 500);
     });
+
+
+	$("div.hd>.tab").on("click","li",function(){
+		var $li=$(this);
+		$li.addClass("on").siblings().removeClass("on");
+		var num = $li.index();
+		$(".MyInvestment>div.bd").children().eq(num).css("display","block").siblings().css("display","none");
+	});
 });

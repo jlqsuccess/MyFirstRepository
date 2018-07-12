@@ -210,6 +210,9 @@ div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .totop{
     left:445px;
     bottom:-29px;
 }
+#content-box-nr-buy>.NavigationWrap>.screen>.arrow1{
+	background:url("../img/todebts/arrowHide.png") no-repeat;
+}
 #content-box-nr-buy>.news{
 	width:970px;
     height:34px;

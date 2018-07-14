@@ -1,0 +1,185 @@
+/*全局样式*/
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.relative{
+	position:relative;
+}
+/*************************************************************************************/
+div.caiseline>img{
+	width:100%;
+}
+/*************************************侧边栏***********************************/
+div.g-toolbar{
+	width:52px;
+	height:200px;
+	position:fixed;
+	top:40%;
+	right:50px;
+}
+div.g-toolbar>.g-toolbar-nav{
+	width:52px;
+	height:190px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item{
+	width:40px;
+	height:40px;
+	position:relative;
+	margin:0 0 10px 12px;
+	color:#fff;
+	text-align:center;
+	border-radius:4px;
+	cursor:pointer;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.toolbar-item-t{
+	display:block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	background:#ff4f3f;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.qq{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -152px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .qq{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .toolbar-item-t{
+	border-radius:4px 0 0 4px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .toolbar-item-t{
+	left:-40px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.toolbar-item-c2{
+	display:block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	background:#ff4f3f;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.calc{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -256px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .calc{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .toolbar-item-c2{
+	border-radius:4px 0 0 4px;
+	left:-40px;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.wx-qrc{
+	width:120px;
+	height:140px;
+	background:#ff4f3f url("../img/index/toolbar.png") no-repeat 0 0;
+	border-radius:4px;
+	position:absolute;
+	display:none;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.wx{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -464px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .wx{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .wx-qrc{
+	border-radius:4px 0 4px 4px;
+	left:-120px;
+	display:block;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.phone-qrc{
+	width:120px;
+	height:140px;
+	background:#ff4f3f url("../img/index/toolbar.png") no-repeat 0 -822px;
+	border-radius:4px;
+	position:absolute;
+	display:none;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.phone{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -684px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .phone{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .phone-qrc{
+	border-radius:4px 0 4px 4px;
+	left:-120px;
+	display:block;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item>.totop{
+	width:40px;
+	height:40px;
+	background:#4998f4 url("../img/index/toolbar.png") no-repeat 0 -569px;
+	border-radius:4px;
+	position:absolute;
+}
+div.g-toolbar>.g-toolbar-nav>.toolbar-item:hover .totop{
+	background-color:#ff4f3f;
+	border-radius:0 4px 4px 0;
+}
+#back{
+	display:none;
+}
+/**********************************主体**********************************/
+#bodyId{
+	width:100%;
+	background:url("../img/aboutUs/bodyBg.jpg") no-repeat center top;
+    background-attachment:fixed;
+    background-size:cover;
+}
+#bodyId>.banner{
+	width:1000px;
+    height:235px;
+    margin:0 auto;
+    padding:100px 0;
+}
+#bodyId>.banner>img{
+	margin:75px auto 0;
+}
+#bodyId>.banner1{
+	width:1000px;
+    margin:0 auto;
+	margin-top:200px;
+}
+#bodyId>.banner2{
+	width:999px;
+    margin:0 auto;
+	overflow:hidden;
+}
+#bodyId>.banner3{
+	width:999px;
+	height:400px;
+    margin:0 auto;
+	background-color:#fff;
+}
+#bodyId>.banner3>#container{
+	width: 900px;
+	height: 300px;
+	margin:0 auto;
+}

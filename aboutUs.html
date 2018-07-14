@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="关于网筹金融,网筹金融简介,乾途金融信息服务（北京）有限公司">
+	<meta name="description" content="网筹金融（http://www.jinrongweb.com）成立于2014年5月，公司全称为“乾途金融信息服务（北京）有限公司”，公司注册资本5000万元，平台自成立以来，坚持不吸储、不放贷、信息数据透明、银行资金存管、多重风险控制，定位于以风险管理为核心，以实现投融资双方共赢的互联网金融信息服务平台。">
+	<meta http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+	<title>网筹金融简介—网筹金融</title>
+	<link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=NQrWUc38B9P6EPhr6OpMFsvBB9w83KyR">
+        //v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"
+    </script>
+</head>
+<body>
+	<div class="main">
+    <!--页面头部-->
+		<header id="header">	
+		</header>
+	</div>
+	<div class="caiseline"><img src="img/index/logo_nav_border.png"></div>
+	<!--主体-->
+	<div id="bodyId">
+		<div class="banner">
+			<img src="img/aboutUs/fontBg.png">
+		</div>
+		<div class="banner1">
+			<img src="img/aboutUs/canvas.png">
+		</div>
+		<div class="banner2">
+			<img src="img/aboutUs/canvas2.png">
+		</div>
+		<div class="banner3">
+			<div id="container"></div>
+			<script type="text/javascript">
+				var map = new BMap.Map("container");
+				// 创建地图实例
+				var point = new BMap.Point(116.356633,39.949415);
+				// 创建点坐标
+				map.centerAndZoom(point, 16);
+				// 初始化地图，设置中心点坐标和地图级别
+
+				var marker = new BMap.Marker(point);        // 创建标注
+				map.addOverlay(marker);                     // 将标注添加到地图中
+				//导航控件
+				map.addControl(new BMap.NavigationControl());
+				//缩放控件
+				map.addControl(new BMap.ScaleControl());
+				//地图类型
+				map.addControl(new BMap.MapTypeControl());
+			</script>
+		</div>
+	</div>
+
+
+
+
+	<!--侧边栏-->
+	<div class="g-toolbar">
+		<ul class="g-toolbar-nav">
+			<li class="toolbar-item">
+				<span class="toolbar-item-t">客服</span>
+				<div class="qq"></div>
+			</li>
+			<li class="toolbar-item">
+				<span class="toolbar-item-c2">计算器</span>
+				<div class="calc"></div>
+			</li>
+			<li class="toolbar-item">
+				<div class="wx-qrc"></div>
+				<div class="wx"></div>
+			</li>
+			<li class="toolbar-item">
+				<div class="phone-qrc"></div>
+				<div class="phone"></div>
+			</li>
+			<li class="toolbar-item" id="back">
+				<span class="toolbar-item-t">置顶</span>
+				<div class="totop"></div>
+			</li>
+		</ul>
+	</div>
+
+
+
+	<footer id="footer">
+	<!--页面底部-->
+    </footer>
+	<script src="js/jquery-1.11.3.js"></script>
+	<!-- <script src="js/ajax.js"></script> -->
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/aboutUs.js"></script>
+</body>
+</html>

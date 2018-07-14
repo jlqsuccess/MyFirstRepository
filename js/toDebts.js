@@ -114,12 +114,11 @@ $(function(){
 				return pageCount;
 			},
 			error:function(){
-				//php语法错误，sql语法错误，json语法错误，404
 				alert("网络故障请检查");
 			}
 		});
 	}
-	var pageCount=loadProducts(3,6);
+	var pageCount=loadProducts(1,6);
 	$("#pagination").on("click","a",function(e,pageCount){
 		e.preventDefault();
 		if($(this).html()=="上一页"){

@@ -2,7 +2,7 @@
 require("init.php");
 @$pno = $_REQUEST["pno"];
 @$pageSize = $_REQUEST["pageSize"];
-//如二个参数进行判断，如果参数无效设置默认值   pno=1 pageSize=8
+//如二个参数进行判断，如果参数无效设置默认值   pno=1 pageSize=6
 if(!$pno){
  $pno = 1;
 }
